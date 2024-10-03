@@ -17,7 +17,7 @@ em.begin()
 em.end()
 
 # Plot energy consumption per component.
-meter.plot_total_jules_per_component()
+meter.plot_total_joules_per_component()
 # or print(em.get_total_joules_per_component())
 ```
 ![Example Output](https://github.com/maufadel/meml/blob/main/example_output.png)
